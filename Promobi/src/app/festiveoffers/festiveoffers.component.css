@@ -1,0 +1,25 @@
+.card{
+    height: 400px;
+    background-color: white;
+    border-color: brown;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    padding-top: 150px;
+    color: blue;
+
+}
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

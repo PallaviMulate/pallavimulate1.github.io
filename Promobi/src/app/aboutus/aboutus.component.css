@@ -1,0 +1,53 @@
+
+
+
+.card1{
+    float: left;
+    margin-top:100px;
+    margin-left: 150px;
+}
+.card2{
+    float: right;
+    margin-top:100px;
+    padding-left:100px;
+    padding-top: 50px;
+}
+.title1{
+    font-size: 20px;
+     font-weight: bold;
+}
+.card3{
+    float: right;
+    margin-top:100px;
+    padding-left: 250px;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.categories{
+    margin-top: -280px;
+}
+
+.uparrow{
+    float: right;
+    margin-top: 50px;
+    z-index: 1;
+}
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}
+
+

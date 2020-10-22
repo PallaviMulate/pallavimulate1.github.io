@@ -1,0 +1,33 @@
+.row{
+    
+    margin-top: 0px;
+    background-color:  rgb(2, 2, 119);
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-left: 500px;
+    
+}
+i{
+    margin-left: 50px;
+    padding-left: 150px;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

@@ -1,0 +1,20 @@
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}
+.uparrow{
+    float: right;
+    margin-top: 350px;
+    z-index: 1;
+   
+}

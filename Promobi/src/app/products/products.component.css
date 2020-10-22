@@ -1,0 +1,58 @@
+.card1{
+    margin-top: 100px;
+    margin-left:400px;
+}
+.smartphone{
+    position: absolute;
+    margin-left: 250px;
+    margin-top:-200px;
+    font-weight: bold;
+}
+.btn {
+    font-weight: bold;
+}
+.card2{
+    margin-top: 150px;
+    margin-left:400px;
+}
+
+.laptops{
+    position: absolute;
+    margin-left: 250px;
+    margin-top:-150px;
+    font-weight: bold;
+}
+.card3{
+    margin-top: 180px;
+    margin-left:400px;
+}
+.tv{
+    position: absolute;
+    margin-left: 250px;
+    margin-top:-150px;
+    font-weight: bold;
+}
+.categories{
+    margin-top: -280px;
+}
+
+.uparrow{
+    float: right;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

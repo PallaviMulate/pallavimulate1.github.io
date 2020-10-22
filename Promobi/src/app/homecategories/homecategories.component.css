@@ -1,0 +1,50 @@
+.card{
+    height:auto;
+    background-color: rgb(247, 245, 245);
+    border-color: rgb(247, 245, 245);
+    padding-top:20px;
+    margin-top: 400px;
+    padding-bottom: 50px;
+    width: 100%;
+   
+}
+.title{
+    float: left;
+    font-weight: bold;
+    margin-left: 320px;
+}
+.card1{
+   
+    float: left;
+    color: blue;
+   }
+.card2{
+   
+    float: right;
+    color: blue;
+   }
+   .list{
+       float: left;
+       margin-left: 320px;
+   }
+
+
+   .uparrow{
+       margin-top: 280px;
+       margin-left: 380px;
+   }
+
+   .large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

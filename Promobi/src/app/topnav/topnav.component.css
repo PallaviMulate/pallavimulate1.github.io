@@ -1,0 +1,27 @@
+.row{
+    background-color: rgb(2, 2, 119);
+    height: 60px;
+    color: white;
+   
+}
+.nav {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

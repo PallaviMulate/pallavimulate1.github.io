@@ -1,0 +1,66 @@
+.row{
+    
+    background-color: brown;
+    height: 150px;
+}
+.logo1{
+    display: inline;
+    float: left;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left:50px;
+    color: white;
+    position:absolute;
+}
+.logo2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 95px;
+    color: white;
+    float: left;
+}
+.logo3{
+    display: inline;
+    float: left;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left:0px;
+    color: yellow;
+    position:absolute;
+}
+.logo4{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 52px;
+    color: yellow;
+    float: left;
+    }
+    
+ .search{
+     position:absolute;
+     float: left;
+     size: 50px;
+     margin-top: 65px;
+ } 
+ .form-control{
+     position: absolute;
+     width: 400px;
+ }
+
+ .large-screen{
+    visibility:visible;
+    display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+   
+}

@@ -1,0 +1,62 @@
+<app-header></app-header>
+<app-topnav></app-topnav>
+<div class="container-fluid">
+    <div class="large-screen">
+    <div class="card1">
+        <div class="img1">
+            <img src="./assets/smartphone.jpg" alt="image">
+        </div>
+        <div class="smartphone">Apple iPhone 11 (64GB) -<br> 
+            (Product) RED <br>(EarPods & Power Adapter in The Box)<br>
+            <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">49,999.00</span><br>
+            Save <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">1800.00</span><br>
+            <span style="color: brown;">In Stock</span><br><br>
+            <button class="btn btn-primery" value="Smartphone" #phone (click)="onAddCart(phone)">Add to cart</button>&nbsp;&nbsp;
+            <button class="btn btn-primery">By now</button><br><br>
+            <p style="color: brown;">{{productadded}}</p>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="img1">
+            <img src="./assets/laptops.jpg" alt="image">
+        </div>
+        <div class="laptops">HP 250 G7<br> 
+            Notebook <br>(Black)<br>
+            <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">39,800.00</span><br>
+            Save <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">6,100.00</span><br>
+            <span style="color: brown;">In Stock</span><br><br>
+            <button class="btn btn-primery" value="Laptop" #laptops (click)="onAddCart(laptops)">Add to cart</button>&nbsp;&nbsp;
+            <button class="btn btn-primery">By now</button><br><br>
+            <p style="color: brown;">{{productadded}}</p>
+        </div>
+    </div>
+
+    <div class="card3">
+        <div class="img1">
+            <img src="./assets/tv.jpg" alt="image">
+        </div>
+        <div class="tv">LG 164cm(65 inches)<br> 
+            4k UHD Smart Nano-cell TV <br>(Black)<br>
+            <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">1,79,990.00</span><br>
+            Save <i class="fa fa-inr" area-hidden="true"></i><span style="color: brown;">1,10,000.00</span><br>
+            <span style="color: brown;">In Stock</span><br><br>
+            <button class="btn btn-primery" value="TV" #tv (click)="onAddCart(tv)">Add to cart</button>&nbsp;&nbsp;
+            <button class="btn btn-primery">By now</button><br><br>
+            <p style="color: brown;">{{productadded}}</p>
+        </div>
+    </div>
+
+
+    <div class="uparrow">
+        <button class="btn btn-link" routnkActive="active" routerLink="/product">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true" style=" font-size:50px;"></i>
+        </button>
+    </div>
+
+<div class="categories">
+<app-homecategories></app-homecategories>
+<app-footer></app-footer>
+</div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+.large-screen{
+    visibility:visible;
+    display: block;
+}
+
+.small-screen{
+    visibility:hidden;
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .large-screen{
+        visibility:hidden;
+        display: none;
+        }
+    .small-screen{
+        visibility:visible;
+        display: block;
+    }
+}
